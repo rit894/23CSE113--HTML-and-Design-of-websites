@@ -1,0 +1,3 @@
+1.Write the html page to define the outcome of the courses using definition list 
+2. create an html web page to insert the Indian map and when a particular state is clicked it should be redirected to that state govt.(image map for any 4 states)
+3.write an html page to repeat your +2 mark sheet 
