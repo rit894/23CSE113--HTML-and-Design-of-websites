@@ -1,0 +1,24 @@
+<table>
+    <tr>
+        <tr>
+            <td style=" background-color: lightgrey;">
+                cell[1,1]
+            </td>
+            <td style="background-color: deeppink;">cell[1,2]</td>
+            <td style="background-color: lightblue;">cell[1,3]</td>
+        </tr>
+        <td colspan = "2" style="background-color: lightpink;"> cell[2,1]</td>
+        <td style = "background-color: lightgreen;">cell[2,2]</td>
+
+    </tr>
+    <tr>
+        <td rowspan="2" style = "background-color: lightyellow;">cell[3,1]</td>
+        <td style="background-color: mediumaquamarine;">cell[3,2]</td>
+        <td style = "background-color: lightcoral;">cell[3,3]</td>
+    </tr>
+    <tr>
+        <td style="background-color: rgb(190, 222, 30);">cell[4,1]</td>
+        <td style="background-color: rgb(205, 14, 14);">cell[4,2]</td>
+        
+    </tr>
+</table>
