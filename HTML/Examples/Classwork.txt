@@ -3,7 +3,5 @@
 															29-01-2026
 3.write an html page to repeat your +2 mark sheet 
 4. what are the  other attribute of table tag
-Attibutes used in table tag
-1.padding
-2.
+5.design a web page for your class timetable
 
