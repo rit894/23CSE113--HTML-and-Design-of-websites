@@ -1,16 +1,140 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta http-equiv="refresh" content ="200">
+        <style>
+            .boxes{
+                border-radius: 15px;
+                border-color: black;
+            }
+            .background{
+                background-color: aliceblue;
+                border-radius: 35px;
+                padding:10px;
 
+            }
+            .rest{
+                display:inline-block;
+                background-color: aliceblue;
+                border-radius: 35px;
+                padding:12px;
+                
+
+            }
+
+        </style>
     </head>
     <body>
-        <form>
-            <label for="userid">User ID:</label>
-           <input type="text" name="login Key" value=" Username"><br><br>
-           <label for="userid">Password :</label>
-            <input type = "password" name="Password" value = "Password"><br> <br>
-            <button type="submit" value="Submit"> Submit </button>
-        </form>
+        <header style="
+            background-color: black;
+            padding: 30px 40px;
+            border-radius: 0 35px;
+            color: aliceblue;
+            display:flex;
+            justify-content: space-between;
+            align-items: center;">
+            <div style="display:flex;gap:10px">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi68pSnO5ohyeSHxJiL74j1pTF_Q2DKLJx9wHJsk5axGofv0O3SFCEmGz9RkBdizx5Ir9CEy42a_oY71Wm51Oiqg5lvn4Ldgl4TyN_C7TjHTrFGM-lAIKDUqCSeSc-0vrZ1bEnV58dpxg4/s1600/HTML+Forms.png" alt="img.png" style="border-radius: 50%;width:34px">
+                <h1>PORTFOLIO</h1>
+            </div>
+            <nav>
+                <a href="#" alt="nth" style="text-decoration: none;">Home</a>
+            </nav>
+
+        </header>
+ <form style="display:block;gap:10px; " onsubmit="return confirm('Are you sure you want to submit?')">
+    <div style="text-align: center; background-color: aliceblue;border-radius: 35px;">
+        <h1 style="text-align: center;padding:15px">Priliminary Inoformation</h1>
+     <label for = "name" >Name:</label>
+     <input type="text" id="name" name="name" style="margin-left: 20px;" class="boxes" ><br><br>
+     <label for = "age">Age :</label>
+     <input type="text" id="age" name="age" style="margin-left: 30px;" class="boxes"><br><br>
+     <label for = "ContactNum">Contact No:</label>
+     <input type="text" id="ContactNum" name="C.no"class="boxes"><br><br>
+     <label for = "rollnum">Roll No: </label>
+     <input type="text" id="rollnum" name="rollno" class="boxes" style="margin-left: 20px;"><br><br></div><br>
+     <div class="background">
+        <h1 style="text-align: center;">Residential and Bio Details</h1>
+     <div style="display:flex;gap:10px">
+     <label for = "Address">Address:</label>
+     <textarea id="Address" name="address" col="60" row="2" class="boxes"></textarea></div><br><br>
+     <div style="display:flex;gap:10px">
+     <label for = "about">ABOUT:</label>
+     <textarea id="about" name="about" col="100" row="5" class="boxes"></textarea></div></div><br>
+     <h1 style="text-align:center">Nationality and Intrests</h1>
+     <div class="rest" width="50px" >
+        
+        <p>Please Choose your nationality accordingly</p>
+        
+        <input type="radio" name="indian" id="indian">
+        <lable for="indian">Indian</lable><br>
+        <input type="radio" name="indian" id="nri">
+        <lable for="nri">NRI</lable>
+
+
+     </div>
+     
+     <div class="rest" style="margin-left:10px">
+        <label for="mtlang">Please Choose your Mother toungue</label>
+        <select class="boxes" name="mother tounge" id="mtlang">
+            <option value="Telugu">Telugu</option>
+            <option value="English">Telugu</option>
+            <option value="Urdu">urdu</option>
+        </select>
+        <p> Choose your hobbies from the following check boxes carefully </p>
+        <input type="checkbox" id="sleeping" name="s">
+        <label for="sleeping">Sleeping</label>
+        <input type="checkbox" id="running" name="r">
+        <label for="running">Running</label>
+         <input type="checkbox" id="Eating" name="e">
+        <label for="Eating"> Eating</label>
+        <input type="checkbox" id="sleeping" name="s">
+        <label for="sleeping">Sleeping</label>
+        <input type="checkbox" id="running" name="r">
+        <label for="running">Running</label>
+         <input type="checkbox" id="Eating" name="e">
+        <label for="Eating"> Eating</label>
+     </div>
+     <div class="rest">
+        <p>Thank You for working with us!!<br>
+         Please Rate your user experience with us</p>
+            <input type="checkbox" id="1" name="1">
+        <label for="1">1</label>
+        <input type="checkbox" id="2" name="2">
+        <label for="2">2</label>
+         <input type="checkbox" id="3" name="3">
+        <label for="3"> 3</label>
+        <input type="checkbox" id="4" name="4">
+        <label for="4">4</label>
+        <input type="checkbox" id="5" name="5">
+        <label for="5">5</label>
+
+
+     </div><br><Br>
+     <div class="background"  style=" display:flex;align-items: center; justify-content: center;">
+     <button type="submit" value="submit">Submit</button>
+     <button type="reset" value="reset" style="margin-left:10px">Reset</button>
+      <button type="click" value="click" style="margin-left:10px">Click</button>
+    </div>
+
+     <footer style="
+     background-color:black;
+     padding:30px 40px;
+     border-radius: 35px 35px 0 0 ;
+     text-align: center;
+     color:white;
+
+     ">
+     <h1> AMRITA SCHOOLS OF ENGINERING</h1>
+
+     </footer>
+
+
+
+
+
     </body>
 
+
 </html>
+
