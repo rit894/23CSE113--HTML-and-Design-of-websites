@@ -1,0 +1,71 @@
+<html>
+<head>
+	<title>Profile</title>
+</head>
+<body>
+
+	<h1 style="color:blue; text-align: center;">   Create Your Profile </h1>
+	<p style=" text-align: center;"> Fill out the details below to set up your profile </p>
+	
+
+<form>
+	<b> Personal Information </b><br>
+	<br>
+	Full Name:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        <input type="text" name="name" 
+             placeholder="Enter name" ><br>
+<br>
+	Email Address:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        <input type="email" id="email_addresses" name="email_addresses" placeholder="Enter your email" multiple ><br>
+<br>
+	Password:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+	<input type="password" name="password"
+           placeholder="Enter Password"><br>
+<br>
+	Confirm Password:
+	<input type="password" name="password"
+           placeholder="Confirm Password"><br>
+<hr>
+
+<b>Interests</b><br>
+<br>
+	<input type="checkbox" id="hike" name="checkbox" value="checkbox">
+	<label for="hike">Hiking</label>
+     <br>
+<br>
+	<input type="checkbox" id="photo" name="checkbox" value="checkbox">
+	<label for="photo">Photography</label>
+<br><br>
+	<input type="checkbox" id="cooking" name="checkbox" value="checkbox">
+	<label for="cooking">Cooking</label>
+<br><br>
+	<input type="checkbox" id="Travel" name="checkbox" value="checkbox">
+	<label for="Travel">Travel</label>
+<br><br>
+<hr>
+
+<b> Gender </b><br>
+	<input type="radio" id="male" name="gender" value="male">
+ 	<label for="male">Male</label><br>
+ 	<input type="radio" id="female" name="gender" value="female">
+  	<label for="female">Female</label><br>
+  	<input type="radio" id="prefer_not_to_say" name="gender" value="prefer_not_to_say">
+  	<label for="prefer_not_to_say">Prefer not to say</label>
+<br>
+<hr>
+<br>
+<b> Country </b><br><br>
+    Select your Country:
+    <select id="country" name="country">
+    <option value="">--Select a Country--</option>
+    <option value="usa">United States</option>
+    <option value="canada">Canada</option>
+    <option value="uk">United Kingdom</option>
+    <option value="australia">Australia</option>
+    <option value="india">India</option>
+   
+    </select>
+
+    <button type="button" style="background-color: #ADD8E6">Create Profile</button>
+<hr>
+</form>
