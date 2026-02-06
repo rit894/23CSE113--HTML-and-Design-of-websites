@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<body style="background-color: #f19a9a; font-family: sans-serif; display: flex; justify-content: center; padding: 0;">
+
+    <form action="/submit-survey" method="POST" style="background-color: #f19a9a; width: 100%; padding: 0;">
+        
+        <h1 style="text-align: center; color: #333; font-weight: normal;">User Experience Research Form</h1>
+
+        <p style="margin-bottom: 5px;">Name</p>
+        <div style="display: flex; gap: 10px; margin-bottom: 15px;">
+            <div style="flex: 1;">
+                <input type="text" name="first_name" placeholder="First" style="width: 100%; padding: 10px; border: none; border-radius: 5px; box-sizing: border-box;">
+            </div>
+            <div style="flex: 1;">
+                <input type="text" name="last_name" placeholder="Last" style="width: 100%; padding: 10px; border: none; border-radius: 5px; box-sizing: border-box;">
+            </div>
+        </div>
+
+        <p style="margin-bottom: 5px;">Email</p>
+        <div style="margin-bottom: 15px;">
+            <input type="email" name="email" style="width: 100%; padding: 10px; border: none; border-radius: 5px; box-sizing: border-box;">
+        </div>
+
+        <p style="margin-bottom: 5px;">Phone</p>
+        <div style="margin-bottom: 15px;">
+            <input type="tel" name="phone" placeholder="### ### ####" style="width: 100%; padding: 10px; border: none; border-radius: 5px; box-sizing: border-box;">
+        </div>
+
+        <p style="margin-bottom: 5px;">Address</p>
+        <div style="margin-bottom: 10px;">
+            <input type="text" name="street1" placeholder="Street Address" style="width: 100%; padding: 10px; border: none; border-radius: 5px; box-sizing: border-box;">
+        </div>
+        <div style="margin-bottom: 10px;">
+            <input type="text" name="street2" placeholder="Street Address Line 2" style="width: 100%; padding: 10px; border: none; border-radius: 5px; box-sizing: border-box;">
+        </div>
+        <div style="display: flex; gap: 10px; margin-bottom: 10px;">
+            <input type="text" name="city" placeholder="City" style="flex: 1; padding: 10px; border: none; border-radius: 5px; box-sizing: border-box;">
+            <input type="text" name="region" placeholder="Region" style="flex: 1; padding: 10px; border: none; border-radius: 5px; box-sizing: border-box;">
+        </div>
+        <div style="display: flex; gap: 10px; margin-bottom: 20px;">
+            <input type="text" name="zip" placeholder="Postal / Zip Code" style="flex: 1; padding: 10px; border: none; border-radius: 5px; box-sizing: border-box;">
+            <select name="country" style="flex: 1; padding: 10px; border: none; border-radius: 5px; background-color: white;">
+                <option value="">Romania</option>
+                <option value="US">United States</option>
+            </select>
+        </div>
+
+        <p style="margin-bottom: 10px;">Questions</p>
+        <table style="width: 100%; text-align: center; border-collapse: collapse; font-size: 13px;">
+            <tr>
+                <th style="width: 40%;"></th>
+                <th>Very Good</th>
+                <th>Good</th>
+                <th>Fair</th>
+                <th>Poor</th>
+                <th>Very Poor</th>
+            </tr>
+            <tr style="height: 50px;">
+                <td style="text-align: left;">I enjoy using the product</td>
+                <td><input type="radio" name="enjoyment" value="5"></td>
+                <td><input type="radio" name="enjoyment" value="4"></td>
+                <td><input type="radio" name="enjoyment" value="3"></td>
+                <td><input type="radio" name="enjoyment" value="2"></td>
+                <td><input type="radio" name="enjoyment" value="1"></td>
+            </tr>
+            <tr style="height: 50px;">
+                <td style="text-align: left;">The product is intuitive and easy to use</td>
+                <td><input type="radio" name="intuitive" value="5"></td>
+                <td><input type="radio" name="intuitive" value="4"></td>
+                <td><input type="radio" name="intuitive" value="3"></td>
+                <td><input type="radio" name="intuitive" value="2"></td>
+                <td><input type="radio" name="intuitive" value="1"></td>
+            </tr>
+        </table>
+
+        <div style="margin-top: 20px; text-align: center;">
+            <input type="submit" value="Submit Form" style="padding: 10px 40px; background-color: white; border: none; border-radius: 5px; font-weight: bold; cursor: pointer; color: #333;">
+        </div>
+
+    </form>
+</body>
+</html>
