@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Edu X – Energy Awareness</title>
+
+<style>
+    
+    body {
+        margin: 0;
+        font-family: "Segoe UI", Arial, sans-serif;
+        background: linear-gradient(120deg, #e6ebf3, #91cfec, #f7d8ee, #f0b6ef);
+        background-size: 400% 400%;
+        animation: aurora 12s infinite alternate;
+        color: #333;
+    }
+
+    @keyframes aurora {
+        0% { background-position: 0% 50%; }
+        50% { background-position: 100% 50%; }
+        100% { background-position: 0% 50%; }
+    }
+
+    
+    header {
+        background: rgba(255, 255, 255, 0.4);
+        backdrop-filter: blur(12px);
+        padding: 25px 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 0 0 25px 25px;
+        box-shadow: 0 4px 10px  rgba(0,0,0,0.2);
+    }
+    header h1 {
+        margin: 0;
+        font-size: 32px;
+        font-weight: bold;
+        color: #222;
+    }
+    nav a {
+        color: #222;
+        text-decoration: none;
+        margin-left: 20px;
+        font-weight: bold;
+        transition: 0.3s;
+    }
+    nav a:hover {
+        color: #0056ff;
+    }
+
+    
+    .card {
+        width: 85%;
+        margin: 40px auto;
+        padding: 25px;
+        border-radius: 20px;
+        background: rgba(255,255,255,0.55);
+        backdrop-filter: blur(18px);
+        border: 1px solid rgba(255,255,255,0.4);
+        box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+    }
+    .card h2 {
+        color: #0056ff;
+        margin-bottom: 15px;
+        font-size: 28px;
+    }
+    .card p {
+        line-height: 1.7;
+        text-align: justify;
+        font-size: 17px;
+    }
+
+    
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+        font-size: 16px;
+    }
+    th {
+        background: rgba(0, 86, 255, 0.7);
+        color: white;
+        padding: 12px;
+        text-transform: uppercase;
+        border-radius: 10px 10px 0 0;
+    }
+    td {
+        padding: 12px;
+        border-bottom: 1px solid rgba(0,0,0,0.1);
+        background: rgba(255,255,255,0.6);
+        backdrop-filter: blur(10px);
+    }
+    tr:nth-child(even) td {
+        background: rgba(255,255,255,0.8);
+    }
+
+   
+    footer {
+        background: rgba(255,255,255,0.4);
+        backdrop-filter: blur(12px);
+        text-align: center;
+        padding: 25px;
+        border-radius: 25px 25px 0 0;
+        margin-top: 50px;
+        box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+    }
+    footer h2 {
+        margin: 0;
+        color: #222;
+    }
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Edu X<br>Energy Awareness</h1>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Main Page</a>
+        <a href="#">Contact</a>
+        <a href="#">Address</a>
+    </nav>
+</header>
+
+<div class="card">
+    <h2>What is Energy?</h2>
+    <p>
+        Energy is the capacity to do work or cause change, existing in various forms such as kinetic, potential, thermal, electrical, chemical, and nuclear energy.
+        It is a fundamental concept in physics and plays a vital role in all physical interactions, biological functions, and technological applications.
+    </p>
+    <p>
+        Energy exists in several forms: kinetic (motion), potential (stored), thermal (heat), chemical (bonds), electrical (charges), and nuclear (atomic nucleus).
+        The law of conservation of energy states that energy cannot be created or destroyed, only transformed.
+    </p>
+</div>
+
+<div class="card">
+    <h2>Types of Energy</h2>
+    <p>There are two types of energies based on their source strength:</p>
+    <ul>
+        <li>Renewable Energy</li>
+        <li>Non‑Renewable Energy</li>
+    </ul>
+
+    <table>
+        <tr>
+            <th>S.No</th>
+            <th>Renewable Energy</th>
+            <th>Non‑Renewable Energy</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Energy from sources that naturally replenish</td>
+            <td>Energy from finite sources formed over millions of years</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Solar, Wind, Hydropower, Biomass, Geothermal</td>
+            <td>Coal, Oil, Natural Gas, Nuclear</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Inexhaustible if managed sustainably</td>
+            <td>Limited reserves, will eventually run out</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Low emissions, eco‑friendly</td>
+            <td>High emissions, contributes to global warming</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Becoming cheaper with technology</td>
+            <td>Costs fluctuate with scarcity and geopolitics</td>
+        </tr>
+    </table>
+</div>
+
+<footer>
+    <h2>Edu X</h2>
+    <p>Empowering knowledge for a sustainable future.</p>
+</footer>
+
+</body>
+</html>
