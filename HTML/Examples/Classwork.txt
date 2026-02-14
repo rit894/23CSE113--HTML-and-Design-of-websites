@@ -1,8 +1,23 @@
 1.Write the html page to define the outcome of the courses using definition list 					28-01-2026
 2. create an html web page to insert the Indian map and when a particular state is- clicked it should be redirected to that state govt.(image map for any 4 states)
-															29-01-2026
+															
+															                                        29-01-2026
 3.write an html page to repeat your +2 mark sheet ✔️
 4. what are the  other attribute of table tag✔️
 5. Write a web page o display your  class timetable✔️
+																									11-02-2026
+FRAMES
+1.what is the difference btw division tag and frame tag?
+2.what is the difference btw frame tag and iframe tag ?
+3. when the ratio values of frames is greater than 100 how it will be handeled ?
+4. how to fix the size of the frames based on the size of another frame ?
 
+LAB  PRACTICE QUESTIONS.
+
+1. divide a webpage into three frmes the first frame consists of contact details,
+admistrative details of an unoversity  . the second colum is going to descibe about the university. the thrid frame is going disccus about the upcoming events in the university
+and the ratio of frames is 25 X 50 X 25.
+
+apply now 
+visit
 
