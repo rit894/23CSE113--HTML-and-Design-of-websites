@@ -2,171 +2,105 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>CSS Only Animated Form</title>
+<title>Split Screen Form</title>
 
 <style>
     body {
-        background: #f0f2f5;
+        margin: 0;
         font-family: Arial, sans-serif;
+        height: 150vh;
+        display: flex;
+    }
+
+    
+    .left {
+        flex: 1;
+        background: url('https://images.unsplash.com/photo-1522199710521-72d69614c702?auto=format&fit=crop&w=900&q=60')
+                    center;
+    }
+
+    
+    .right {
+        flex: 1;
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 1000vh;
-        margin: 0;
+        background: #f5f6fa;
+        padding: 20px;
     }
 
     .form-box {
-        width: 400px;
-        padding: 30px;
+        width: 95%;
+        max-width: 500px;
         background: white;
-        border-radius: 20px;
+        padding: 30px;
+        border-radius: 15px;
         box-shadow: 0 10px 25px rgba(0,0,0,0.1);
-        
     }
 
     h2 {
         text-align: center;
         margin-bottom: 25px;
-        font-weight: 600;
+        font-size: 24px;
     }
 
-    .input-group {
-        position: relative;
-        margin-bottom: 25px;
-    }
 
-    .input-group input {
+
+    .form-grid input {
         width: 100%;
         padding: 12px;
-        border: none;
-        border-bottom: 2px solid #ccc;
+        border-radius: 10px;
+        border: 1px solid #ccc;
         outline: none;
-        font-size: 16px;
-        background: transparent;
-        transition: 0.3s;
-    }
-
-    .input-group input:focus {
-        border-bottom: 2px solid #0084ff;
-    }
-
-    .input-group label {
-        position: absolute;
-        left: 12px;
-        top: 12px;
-        color: #777;
-        pointer-events: none;
-        transition: 0.3s;
-    }
-
-    .input-group input:focus + label,
-    .input-group input:not(:placeholder-shown) + label {
-        top: -10px;
-        font-size: 12px;
-        color: #0084ff;
-    }
-
-    .underline {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        height: 2px;
-        width: 0;
-        background: #0084ff;
-        transition: 0.4s;
-    }
-
-    .input-group input:focus ~ .underline {
-        width: 100%;
+        font-size: 15px;
     }
 
     button {
-        
         width: 100%;
         padding: 12px;
         border: none;
-        background: #0084ff;
+        background: #007bff;
         color: white;
         font-size: 16px;
-        border-radius: 25px;
+        border-radius: 10px;
         cursor: pointer;
+        margin-top: 20px;
         transition: 0.3s;
     }
 
     button:hover {
-        background: #006fd6;
-        transform: translateY(-2px);
+        background: #005fcc;
     }
 
-    @keyframes fadeIn {
-        from { opacity: 0; transform: translateY(20px); }
-        to { opacity: 1; transform: translateY(0); }
-    }
+
 </style>
 </head>
 
 <body>
 
-<div class="form-box">
-    <h2>Animated CSS Form</h2>
+<div class="left"></div>
 
-    <div class="input-group">
-        <input type="text" required placeholder=" ">
-        <label>Name</label>
-        <span class="underline"></span>
-    </div>
+<div class="right">
+    <div class="form-box">
+        <h2>Create Account</h2>
 
-    <div class="input-group">
-        <input type="email" required placeholder=" ">
-        <label>Email</label>
-        <span class="underline"></span>
-    </div>
+        <div class="form-grid">
+            <input type="text" placeholder="Full Name"><br><br>
+            <input type="email" placeholder="Email Address"><br><br>
+            <input type="password" placeholder="Password"><br><br>
+            <input type="text" placeholder="Phone Number"><br><br>
+            <input type="text" placeholder="City"><br><br>
+            <input type="text" placeholder="State"><br><br>
+            <input type="text" placeholder="Country"><br><br>
+            <input type="text" placeholder="Zip Code"><br><br>
+            <input type="text" placeholder="Address Line 1"><br><br>
+            <input type="text" placeholder="Address Line 2"><br><br>
+            <input type="text" placeholder="Company Name"><br><br>
+            <input type="text" placeholder="Job Title"><br><br>
+        </div>
 
-    <div class="input-group">
-        <input type="text" required placeholder=" ">
-        <label>Subject</label>
-        <span class="underline"></span>
+        <button>Sign Up</button>
     </div>
-
-    <div class="input-group">
-        <input type="text" required placeholder=" ">
-        <label>Message</label>
-        <span class="underline"></span>
-    </div>
-
-    
-    <div class="input-group">
-        <input type="text" required placeholder=" ">
-        <label>Message</label>
-        <span class="underline"></span>
-    </div>
-    <div class="input-group">
-        <input type="text" required placeholder=" ">
-        <label>Message</label>
-        <span class="underline"></span>
-    </div>
-    <div class="input-group">
-        <input type="text" required placeholder=" ">
-        <label>Message</label>
-        <span class="underline"></span>
-    </div>
-    <div class="input-group">
-        <input type="text" required placeholder=" ">
-        <label>Message</label>
-        <span class="underline"></span>
-    </div>
-    <div class="input-group">
-        <input type="text" required placeholder=" ">
-        <label>Message</label>
-        <span class="underline"></span>
-    </div>
-    <div class="input-group">
-        <input type="text" required placeholder=" ">
-        <label>Message</label>
-        <span class="underline"></span>
-    </div>
-
-    <button type="submit">Submit</button>
 </div>
 
 </body>

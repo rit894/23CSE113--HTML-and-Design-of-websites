@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Neumorphism Form</title>
+
+<style>
+    body {
+        margin: 0;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #e0e5ec;
+        font-family: Arial, sans-serif;
+    }
+
+    .form-box {
+        width: 350px;
+        padding: 40px;
+        border-radius: 30px;
+        background: #e0e5ec;
+        box-shadow:
+            10px 10px 20px #b8bec7,
+            -10px -10px 20px #ffffff;
+    }
+
+    h2 {
+        text-align: center;
+        margin-bottom: 30px;
+        color: #555;
+        font-weight: 600;
+    }
+
+    .input-group {
+        margin-bottom: 25px;
+    }
+
+    .input-group input {
+        width: 100%;
+        padding: 15px;
+        border: none;
+        border-radius: 15px;
+        background: #e0e5ec;
+        font-size: 15px;
+        outline: none;
+        box-shadow:
+            inset 5px 5px 10px #b8bec7,
+            inset -5px -5px 10px #ffffff;
+    }
+
+    button {
+        width: 100%;
+        padding: 15px;
+        border: none;
+        border-radius: 15px;
+        background: #e0e5ec;
+        font-size: 16px;
+        cursor: pointer;
+        color: #555;
+        font-weight: bold;
+        box-shadow:
+            5px 5px 10px #b8bec7,
+            -5px -5px 10px #ffffff;
+        transition: 0.2s;
+    }
+
+    button:active {
+        box-shadow:
+            inset 5px 5px 10px #b8bec7,
+            inset -5px -5px 10px #ffffff;
+    }
+</style>
+</head>
+
+<body>
+
+<div class="form-box">
+    <h2>Neumorphic Form</h2>
+
+    <div class="input-group">
+        <input type="text" placeholder="Full Name">
+    </div>
+
+    <div class="input-group">
+        <input type="email" placeholder="Email Address">
+    </div>
+
+    <div class="input-group">
+        <input type="password" placeholder="Password">
+    </div>
+
+    <button>Submit</button>
+</div>
+
+</body>
+</html>
