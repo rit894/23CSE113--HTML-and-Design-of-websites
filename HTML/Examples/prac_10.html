@@ -1,5 +1,235 @@
 <!DOCTYPE html>
 <html>
-    <head></head>
-    <body></body>
+    <head>
+        <style>
+            header{
+                background-color: aliceblue;
+                display:flex;
+                justify-content: space-between;
+                align-items: center;
+                padding:25px;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <header>
+            <div style="display:inline-block">
+            <h2>ACME CITY </h2>
+            <h3 style="color: rgb(240, 171, 87);">COLLLEGE</h3>
+        </div>
+        <nav style="display:inline-block">
+            <h3>ACME CITY COLLEGE </h3>
+            <p>123, Maple Street,Houston ,TX,77002<br>
+            <p>example@gmail.com<br>
+            <p>www.example.com<br>
+            <p>(123)123456789</p>
+
+
+        </nav>
+
+        </header>
+        <div style="padding:35px">
+            <p style="font-size: larger;">STUDENT REGISTRATION FORM </p>
+            <div style="background-color: aliceblue;
+                        height:20px; padding:17px;padding-top: 20px;">
+                        <strong>Basic Information</strong>
+                    </div><br>
+            <form>
+                <label for="fn">Full Name</label><br><br>
+                <diV style="display:flex;gap:10px">
+                <input type="text" id="fn" name="fn" placeholder="First Name" width="200px" height="50px" style="border-radius: 5px; width:200px;height:25px">
+                <input type="text" id="fn" name="mn" placeholder="Middle Name" width="200px" height="20px" style="border-radius: 5px; width:200px;height:25px">
+                <input type="text" id="fn" name="ln" placeholder="Last Name" width="20px" height="20px" style="border-radius: 5px; width:220px;height:25px"></diV><br><br>
+                <div style="display:inline-block">
+                    <label for="Stnum">Student Number</label><label for="yrlvl" style="margin-left: 248px;">Year Level</label><br><br>
+                    <input type="text" id="Stnum" name="Stnum" style="width:300px; height:30px;border-radius: 4px;" placeholder="e.g. 11112546">
+                    
+                    <input type="text" id="yrlvl" name="yrlvl" style="width:300px ;height:30px ;margin-left:40px;border-radius: 4px;" placeholder="for incoming A.Y.'12-13'">
+
+                </div>
+                <br><br><br>
+                <div style="display:inline-block">
+                    <label >Degree Program</label><label for="Email" style="margin-left: 248px;">Year Level</label><br><br>
+                    <select style="width:300px; height:35px;border-radius: 4px;" for="degpgr">
+                        <option id="degpr" selected>Please Select</option>
+                        <option id="degpr">Computer Science</option>
+                        <option id="degpr">ECE</option>
+                        <option id="degpr">CEC</option>
+                    </select>
+                    
+                    <input type="text" id="Email" name="email" style="width:300px ;height:30px ;margin-left:40px;border-radius: 4px;" placeholder="ex:myname@example.com">
+
+                </div>
+                <br><br><br>
+                <div style="display:inline-block">
+                    <label >Phone Number</label><label  style="margin-left: 258px;">Network Provider</label><br><br>
+                    <input type="text" id="Email" name="email" style="width:300px ;height:30px ;border-radius: 4px;" placeholder="ex:myname@example.com">
+                    <select style="width:300px; height:35px;border-radius: 4px;margin-left:40px;" for="netp">
+                        <option id="netp" selected>Please Select</option>
+                        <option id="netp">airte</option>
+                        <option id="netp">jio</option>
+                        <option id="netp">TATA</option>
+                    </select>
+
+                    
+                    
+
+                </div>
+                <br><br>
+                <diV >
+                <p style="font-weight: bolder; font-size: medium;">Birth Date</p>
+                <div style="display: flex; gap:26px">
+                <select style="width:200px; height:35px;border-radius: 4px;" for="mo" >
+                    <option id="mo" selected>Please select a month</option>
+                    <option id="mo" >JAN</option>
+                    <option id="mo" >FEB</option>
+                    <option id="mo" >MAR</option>
+                    <option id="mo" >APR</option>
+                    <option id="mo" >MAY</option>
+                    <option id="mo" >JUN</option>
+                    
+                </select>
+                    <select style="width:200px; height:35px;border-radius: 4px;" for="da" >
+                    <option id="da" selected>Please select a day</option>
+                    <option id="da" >1</option>
+                    <option id="da" >2</option>
+                    <option id="da" >3</option>
+                    <option id="da" >4</option>
+                    <option id="da" >5</option>
+                    <option id="da" >6</option>
+                    
+                </select>
+                    <select style="width:200px; height:35px;border-radius: 4px;" for="yr" >
+                    <option id="yr" selected>Please select a Year</option>
+                    <option id="yr" >JAN</option>
+                    <option id="yr" >FEB</option>
+                    <option id="yr" >MAR</option>
+                    <option id="yr" >APR</option>
+                    <option id="yr" >MAY</option>
+                    <option id="yr" >JUN</option>
+                    
+                </select>
+                </div></diV>
+                <br><br>
+
+                <div>
+                <label for="pradd"> <strong>Present Address</strong></label><br><br>
+                <input type="text" id="pradd" style="width:640px;height:30px;border-radius: 4px;" placeholder="Strret Address"><br><br>
+                
+                <input type="text" id="pradd" style="width:640px;height:30px;border-radius: 4px;" placeholder="Strret Address Line 2"><br><br>
+                <div style="display:flex; gap:20px">
+                <input type="text" id="pradd" style="width:300px; height:30px ; border-radius: 4px;" placeholder="City">
+                <input type="text" id="pradd" style="width:317px; height:30px ; border-radius: 4px;" placeholder="State/Provinces">
+                </div>
+<br>
+                <div style="display:inline-block">
+                
+                <input type="text"  name="email" style="width:300px ;height:30px ;border-radius: 4px;" placeholder="Postal/Zip Code">
+                <select style="width:300px; height:35px;border-radius: 4px;margin-left:40px;" for="netp">
+                        <option id="netp" selected>Country</option>
+                        <option id="netp">USA</option>
+                        <option id="netp">India</option>
+                        <option id="netp">China</option>
+                </select>
+
+                </div>
+                </div>
+                <br><br>
+                <div>
+                <label for="peradd"> <strong>Permanent Address</strong></label><br><br>
+                <input type="text" id="perdd" style="width:640px;height:30px;border-radius: 4px;" placeholder="Strret Address"><br><br>
+                
+                <input type="text" id="perdd" style="width:640px;height:30px;border-radius: 4px;" placeholder="Strret Address Line 2"><br><br>
+                <div style="display:flex; gap:20px">
+                <input type="text" id="peradd" style="width:300px; height:30px ; border-radius: 4px;" placeholder="City">
+                <input type="text" id="peradd" style="width:317px; height:30px ; border-radius: 4px;" placeholder="State/Provinces">
+                </div>
+<br>
+                <div style="display:inline-block">
+                
+                <input type="text"  name="email" style="width:300px ;height:30px ;border-radius: 4px;" placeholder="Postal/Zip Code">
+                <select style="width:300px; height:35px;border-radius: 4px;margin-left:40px;" for="netp">
+                        <option id="netp" selected>Country</option>
+                        <option id="netp">USA</option>
+                        <option id="netp">India</option>
+                        <option id="netp">China</option>
+                </select>
+
+                </div>
+                </div>
+                <br><Br>
+
+                <div>
+                    <label for="emc">Emergency Contact </label> <label for="Rel" style="margin-left: 215px;">Relationship</label><br><br>
+                    
+                    <div style="display: flex; gap:20px">
+                    <div style="display: flex; gap:10px">
+                    <input type="text" id="emc" style="width:150px;height:30px;border-radius: 4px;" placeholder="First Name">
+                    <input type="text" id="emc" style="width:150px;height:30px;border-radius: 4px;" placeholder="Last Name">
+                    </div>
+                     <input type="text" id="emc" style="width:300px;height:30px;border-radius: 4px;" placeholder="ex. Father, Mother,BoyFriend">
+                    </div>
+                </div>
+<br><br><BR>
+
+                <div>
+                <label for="emad"> <strong>Address Of Person To Contact In case of Emergency</strong></label><br><br>
+                <input type="text" id="emad" style="width:640px;height:30px;border-radius: 4px;" placeholder="Strret Address"><br><br>
+                
+                <input type="text" id="emad" style="width:640px;height:30px;border-radius: 4px;" placeholder="Strret Address Line 2"><br><br>
+                <div style="display:flex; gap:20px">
+                <input type="text" id="emad" style="width:300px; height:30px ; border-radius: 4px;" placeholder="City">
+                <input type="text" id="emad" style="width:317px; height:30px ; border-radius: 4px;" placeholder="State/Provinces">
+                </div>
+<br>
+                <div style="display:inline-block">
+                
+                <input type="text"  name="email" style="width:300px ;height:30px ;border-radius: 4px;" placeholder="Postal/Zip Code">
+                <select style="width:300px; height:35px;border-radius: 4px;margin-left:40px;" for="netp">
+                        <option id="netp" selected>Country</option>
+                        <option id="netp">USA</option>
+                        <option id="netp">India</option>
+                        <option id="netp">China</option>
+                </select>
+
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                
+
+
+
+            </form>
+
+        </div>
+        
+
+    </body>
 </html>

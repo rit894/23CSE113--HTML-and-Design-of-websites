@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>CSS Only Animated Form</title>
+
+<style>
+    body {
+        background: #f0f2f5;
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 1000vh;
+        margin: 0;
+    }
+
+    .form-box {
+        width: 400px;
+        padding: 30px;
+        background: white;
+        border-radius: 20px;
+        box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        
+    }
+
+    h2 {
+        text-align: center;
+        margin-bottom: 25px;
+        font-weight: 600;
+    }
+
+    .input-group {
+        position: relative;
+        margin-bottom: 25px;
+    }
+
+    .input-group input {
+        width: 100%;
+        padding: 12px;
+        border: none;
+        border-bottom: 2px solid #ccc;
+        outline: none;
+        font-size: 16px;
+        background: transparent;
+        transition: 0.3s;
+    }
+
+    .input-group input:focus {
+        border-bottom: 2px solid #0084ff;
+    }
+
+    .input-group label {
+        position: absolute;
+        left: 12px;
+        top: 12px;
+        color: #777;
+        pointer-events: none;
+        transition: 0.3s;
+    }
+
+    .input-group input:focus + label,
+    .input-group input:not(:placeholder-shown) + label {
+        top: -10px;
+        font-size: 12px;
+        color: #0084ff;
+    }
+
+    .underline {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        height: 2px;
+        width: 0;
+        background: #0084ff;
+        transition: 0.4s;
+    }
+
+    .input-group input:focus ~ .underline {
+        width: 100%;
+    }
+
+    button {
+        
+        width: 100%;
+        padding: 12px;
+        border: none;
+        background: #0084ff;
+        color: white;
+        font-size: 16px;
+        border-radius: 25px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    button:hover {
+        background: #006fd6;
+        transform: translateY(-2px);
+    }
+
+    @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(20px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+</style>
+</head>
+
+<body>
+
+<div class="form-box">
+    <h2>Animated CSS Form</h2>
+
+    <div class="input-group">
+        <input type="text" required placeholder=" ">
+        <label>Name</label>
+        <span class="underline"></span>
+    </div>
+
+    <div class="input-group">
+        <input type="email" required placeholder=" ">
+        <label>Email</label>
+        <span class="underline"></span>
+    </div>
+
+    <div class="input-group">
+        <input type="text" required placeholder=" ">
+        <label>Subject</label>
+        <span class="underline"></span>
+    </div>
+
+    <div class="input-group">
+        <input type="text" required placeholder=" ">
+        <label>Message</label>
+        <span class="underline"></span>
+    </div>
+
+    
+    <div class="input-group">
+        <input type="text" required placeholder=" ">
+        <label>Message</label>
+        <span class="underline"></span>
+    </div>
+    <div class="input-group">
+        <input type="text" required placeholder=" ">
+        <label>Message</label>
+        <span class="underline"></span>
+    </div>
+    <div class="input-group">
+        <input type="text" required placeholder=" ">
+        <label>Message</label>
+        <span class="underline"></span>
+    </div>
+    <div class="input-group">
+        <input type="text" required placeholder=" ">
+        <label>Message</label>
+        <span class="underline"></span>
+    </div>
+    <div class="input-group">
+        <input type="text" required placeholder=" ">
+        <label>Message</label>
+        <span class="underline"></span>
+    </div>
+    <div class="input-group">
+        <input type="text" required placeholder=" ">
+        <label>Message</label>
+        <span class="underline"></span>
+    </div>
+
+    <button type="submit">Submit</button>
+</div>
+
+</body>
+</html>
