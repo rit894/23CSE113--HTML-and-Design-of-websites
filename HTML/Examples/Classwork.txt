@@ -18,6 +18,15 @@ LAB  PRACTICE QUESTIONS.
 admistrative details of an unoversity  . the second colum is going to descibe about the university. the thrid frame is going disccus about the upcoming events in the university
 and the ratio of frames is 25 X 50 X 25.
 
-apply now 
+apply now
 visit
+
+Date:18-02-2026
+
+
+1. create a wbpage for a job portal  which includes job descripttion,
+salary location details in table form. tables background colour is green , font is xyz, fontsize
+size shoulds 25 px , font color in white ,
+company contact details in seprate division in color red,right aligned,background is yellow
+
 
