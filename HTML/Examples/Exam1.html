@@ -2,120 +2,80 @@
 <html>
     <head>
         <style>
-            body{
-                background: linear-gradient(120deg, rgb(138, 202, 245) ,rgb(187, 178, 250),rgb(180, 223, 238),lightblue);
-                background-size: 400% ;
-                animation: aurora 12s infinite alternate;
-            }
-            @keyframes aurora {
-                0%{background-position: 0% 50%;}
-                50%{background-position: 50% 100%;}
-                100%{background-position: 0% 50%;}
-            }
-
-            header{
-                background-color: rgb(220, 231, 244);
-                border-radius: 0 0 35px 35px;
-                padding:25px;
-                display:flex;
-                justify-content:space-between;
-                align-items: center;
-                box-shadow: 4px 10px 15px rgb(80, 80, 80);
-
-            }
-
-            nav a {
-                color:black;
-                transition: 2s;
-                text-decoration: none;
-            }
-
-            nav a:hover{
-                color:blue;
-            }
-            footer{
-                background-color: rgb(206, 231, 253);
+            table{
+                border:1px solid black;
                 text-align: center;
                 color:black;
-                padding:25px;
-                border-radius: 35px 35px 0 0 ;
+                padding:2px;
+                border-collapse:collapse
+            }
+            th,td{
+                border:1px solid black;
+                text-align: center;
                 
-                box-shadow:4px 10px 15px rgb(80, 80, 80) ;
-
-
             }
-            .card{
-                background-color:rgb(253, 254, 255);
-                max-width: 80%;
-                justify-content: space-between;
-                padding:25px;
-                margin:40px auto;
-                box-shadow: 4px 10px 13px rgb(54, 54, 54);
-                border-radius: 25px;
-            }
-
-
-
-
         </style>
-
+        
     </head>
     <body>
-        <header>
-            <div style = "display:inline-block">
-            <h1>Companies Name </h1>
-            <h2> Change the path you choose</h2>
-            </div>
-            <nav style="display:flex;gap:10px">
-                <a href="#" >Home</a>
-                <a href="#">Contact</a>
-                <a href ="#">Mainpage</a>
-                <a href = "#">More</a>
-            </nav>
-        </header>
-        <div class="card">
-            <h1 style="color:blue">About Us</h1>
-            <img src="C:\Users\sridh\OneDrive\Desktop\Sem2\23CSE113--HTML-and-Design-of-websites\HTML\Examples\HTML images\logo.png" alt="png" style="float:right; width:40%;height:50%">
-            <p>IBM CEO Arvind Krishna in an interview with Bloomberg told about which jobs are most vulnerable to artificial intelligence and what workers might need to do to stay relevant in an evolving economy.
+        <table>
+            <tr>
+                <th>HEADER COLOUMN1 </th>
+                <th> HEAER COLUMN 2</th>
+                <th>HEADER COLOUMN 3</th>
+                <th> Header column 4</th>
+            </tr>
+         <tr>
+            <td> row2-item1</td>
+             <td> row2-item2</td>
+             <td rowspan="2">
+                Row 2 Neested Table 1
+                <table >
+                    <tr >
+                        <th>ROw1 Header</th>
+                        <td>item</td>
+                    </tr>
+                    <tr>
+                        <th>ROw2 Header</th>
+                        <td>item</td>
+                    </tr>
+                    <tr>
+                        <th>ROw3 Header</th>
+                        <td>item</td>
+                    </tr>
+                </table>
+             </td>
+                <td>ROW 2 ITEM4 </td>
+            </tr>
+            <tr>
+               <td>
+                Row 3 NESSTE TABLE
+                 <table >
+                    <tr >
+                        <th>ROw1 Header</th>
+                        <td>item</td>
+                    </tr>
+                    <tr>
+                        <th>ROw2 Header</th>
+                        <td>item</td>
+                    </tr>
+                    
+                </table>
+               </td>
+               <td>
+                Row 3 item2
+               </td>
+               <td rowspan="2">ROW ITEM 3</td>
 
-According to Arvind Krishna, call centre positions are among the roles most prone to automation. He stated that as much as half of such jobs could disappear over time as AI systems become more capable of handling routine customer interactions.</p>
-            
-        </div>
-        <div class="card">
-            <h1 style="color:blue">About our chairperson</h1>
-            <p>IBM CEO Arvind Krishna in an interview with Bloomberg told about which jobs are most vulnerable to artificial intelligence and what workers might need to do to stay relevant in an evolving economy.
-
-According to Arvind Krishna, call centre positions are among the roles most prone to automation. He stated that as much as half of such jobs could disappear over time as AI systems become more capable of handling routine customer interactions.IBM CEO Arvind Krishna in an interview with Bloomberg told about which jobs are most vulnerable to artificial intelligence and what workers might need to do to stay relevant in an evolving economy.
-
-According to Arvind Krishna, call centre positions are among the roles most prone to automation. He stated that as much as half of such jobs could disappear over time as AI systems become more capable of handling routine customer interactions.IBM CEO Arvind Krishna in an interview with Bloomberg told about which jobs are most vulnerable to artificial intelligence and what workers might need to do to stay relevant in an evolving economy.
-
-According to Arvind Krishna, call centre positions are among the roles most prone to automation. He stated that as much as half of such jobs could disappear over time as AI systems become more capable of handling routine customer interactions.IBM CEO Arvind Krishna in an interview with Bloomberg told about which jobs are most vulnerable to artificial intelligence and what workers might need to do to stay relevant in an evolving economy.
-
-According to Arvind Krishna, call centre positions are among the roles most prone to automation. He stated that as much as half of such jobs could disappear over time as AI systems become more capable of handling routine customer interactions.</p>
-        </div>
-        <div class="card">
-            <h1 style="color:blue">OUR ETHICS AND POLOCIES</h1>
-            <p>IBM CEO Arvind Krishna in an interview with Bloomberg told about which jobs are most vulnerable to artificial intelligence and what workers might need to do to stay relevant in an evolving economy.
-
-According to Arvind Krishna, call centre positions are among the roles most prone to automation. He stated that as much as half of such jobs could disappear over time as AI systems become more capable of handling routine customer interactions.IBM CEO Arvind Krishna in an interview with Bloomberg told about which jobs are most vulnerable to artificial intelligence and what workers might need to do to stay relevant in an evolving economy.
-
-According to Arvind Krishna, call centre positions are among the roles most prone to automation. He stated that as much as half of such jobs could disappear over time as AI systems become more capable of handling routine customer interactions.IBM CEO Arvind Krishna in an interview with Bloomberg told about which jobs are most vulnerable to artificial intelligence and what workers might need to do to stay relevant in an evolving economy.
-
-According to Arvind Krishna, call centre positions are among the roles most prone to automation. He stated that as much as half of such jobs could disappear over time as AI systems become more capable of handling routine customer interactions.</p>
-        </div><br>
-
-        <footer>
-            <h1> COMPANIES NAME </h1>
-            <h2> This Webpage is purely for the exam and is for evaluation only.</h2>
-            <div style="display:flex;gap:10px;align-items: center;justify-content: space-between; max-width:250px; margin:0 auto">
-            <a href="#" style="text-decoration: none; color:black">Home</a>
-            <a href="#" style="text-decoration: none; color:black">COntact</a>
-            <a href="#" style="text-decoration: none; color:black">Main Page</a>
-            <a hre="#" style="text-decoration: none; color:black">More</a></div>
-
-            <p>&copy 2024 copyrights reversed for Companies Name</p>
-        </footer>
-
-
+            </tr>
+            <tr>
+                <td>ROW 4 ITEM1 </td>
+                <td> ROW 4 ITEM 2</td>
+                <td> ROW 4 ITEM 2</td>
+            </tr>
+            <tr>
+                <td> ROW5 LAST ROW OF THE TABLE</td>
+            </tr>
+        </table>
     </body>
-    </html>
+</html>
