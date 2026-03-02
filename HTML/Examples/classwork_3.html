@@ -1,86 +1,66 @@
 <!DOCTYPE html>
 <html>
     <head><style>
-    .heading1{
-        text-align: center;color:green;
-    }
-    table{
-        margin:25px auto;
-        border: 3px solid black;
-        background-color: green;
-        font-family: 'Courier New';
-        font-size: 25px;
-        color:aliceblue;
-        border-collapse: collapse;
-    }
-    th,td{
-        border:3px solid black;
-        padding:5px;
-        text-align: center;
-    }
+        header{
+            background-color: black;
+            padding: 30px 40px;
+            border-radius: 0 35px;
+            color: aliceblue;
+            display:flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 4px 10px 13px rgb(98, 95, 95);
+        }
+ 
     .card{
-        background-color: rgb(223, 227, 115);
+        background-color: whitesmoke;
         border-radius: 15px;
         box-shadow: 4px 6px 10px rgb(140, 138, 138);
         padding: 15px;
-        margin-left: auto;
+        margin: 40px auto;
         
         max-width: 500px;
-        color:red;
+        color:rgb(8, 8, 8);
         text-align:center;
+        
+    }
+    nav a{
+        color: white;
+        text-decoration: none;
+        font-size: 15px;
+    }
+    nav a:hover{
+        text-decoration: underline;
     }
     </style>
     </head>
-    <body>
-        <table>
-            <tr>
-                <th>S.no</th>
-                <th>Job role</th>
-                <th>Job Description</th>
-                <th>Salary</th>
-                <th>Location</th>
-            </tr>
-            <tr>
-                <td>1.</td>
-                <td> Developer </td>
-                <td> Developing softwars and all.....</td>
-                <td> 25LPA</td>
-                <td>Coimbatore</td>
-            </tr>
-                        <tr>
-                <td>2.</td>
-                <td> Developer </td>
-                <td> Developing softwars and all.....</td>
-                <td> 55LPA</td>
-                <td>Coimbatore</td>
-            </tr>
-                        <tr>
-                <td>3.</td>
-                <td> Developer </td>
-                <td> Developing softwars and all.....</td>
-                <td> 25LPA</td>
-                <td>Coimbatore</td>
-            </tr>
-                        <tr>
-                <td>4.</td>
-                <td> Developer </td>
-                <td> Developing softwars and all.....</td>
-                <td> 25LPA</td>
-                <td>Coimbatore</td>
-            </tr>
-                        <tr>
-                <td>5.</td>
-                <td> Developer </td>
-                <td> Developing softwars and all.....</td>
-                <td> 25LPA</td>
-                <td>Coimbatore</td>
-            </tr>
-        </table>
+    <body style="background-image:url(https://c8.alamy.com/comp/HY6DWB/main-building-of-the-amrita-university-campus-in-ettimadai-coimbatore-HY6DWB.jpg);background-repeat: repeat-x;">
+        <header>
+            
+            <div style="display:flex;gap:10px">
+            <img src="https://www.pngitem.com/pimgs/m/539-5392274_amrita-university-logo-hd-png-download.png" alt="image.jpg" style="border-radius: 50%;width:120px">
+            <div style="display:inline-block">
+            <h1> Departments Name</h1>
+            <h2>  A gloroius chnge in future</h2></div></div>
+            <nav style=" display:flex;gap:10px;text-decoration: none;">
+                
+                <a href="#">Home</a>
+                <a href="#">Contact</a>
+                <a href="#">Main Page</a>
+                <a href="#">Futher</a>
+                
+            </nav>
+        </header>
         <div class="card">
-            <p style="text-align: center;">ABC COMPANY</p>
+            <p style="text-align: center;">Depatment'S Name</p>
             <p> An ultimate option for a golde future</p>
             <p>Contact Us at </p>
-            <p> phone NO: 1565132164 Email : someone @email.com Instagram: Some_ix.ox</p>
+             <div style="display: flex;gap:10px;justify-content: center;">
+            <p> phone NO: 1565132164 </p>
+           <p>email:someone@gmail.com</p></div>
+           <div>
+            <textarea style="border-bottom-color: red; border-bottom-style: solid;border-top-color: blue;border-top-style: dotted;border-left-color: green;border-left-style: dashed; border-right-color: yellow;border-right-style: double;padding: 5px 5px 10px 15px;"></textarea>
+           </div>
 
         </div>
         

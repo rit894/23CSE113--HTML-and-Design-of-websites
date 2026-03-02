@@ -29,4 +29,34 @@ salary location details in table form. tables background colour is green , font 
 size shoulds 25 px , font color in white ,
 company contact details in seprate division in color red,right aligned,background is yellow
 
+Date:26-02-2026
+
+CSS-Background prperties:
+background-color
+Background - image
+Background - position
+Background - repeat
+Background - attachment
+
+1. Apply different colors for different tag divisions
+
+2. Design a webPage for department , the header having a bacckground of x color and logo is placed at right top corner and the background image is a universities bulding which is fixed and not repeated,having the contact information in a text area which has a background color X which is furtherly placed at bottom left of the webpage.
+
+3. design a text holding(a welcome text) whose border is of 4 different colours ,
+
+bottom:red and solid lines pad:5px;
+top: blue and dotted linespad:5px;
+left:green and dashed lines pad:10;
+right: yellow and double lines pad:15px.
+
+
+Date : 02-03-2026
+You are working as a web developer in the IT team of a university that has recently launched a startup incubation center called “GreenTech Innovation Hub.” 
+The management has asked you to design a professional and visually appealing single-page website to introduce the center’s vision, services, and contact details to students and industry partners. 
+Create an HTML5 web page structured with appropriate sections such as header, navigation menu, about, services, and contact information. All visual styling must be implemented using an external CSS file named style.css.
+ The design should demonstrate effective use of CSS background properties (color, image, or gradient), various border styles (solid, dashed, double, with border-radius), and text formatting features (font-family, font-size, font-weight, text alignment, text-transform, and letter spacing). Ensure proper use of class and id selectors, padding, and margins for layout clarity. Inline CSS and internal <style> tags are strictly not allowed.
+  The final output should be neat, responsive using basic CSS
+
+
+
 
