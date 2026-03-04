@@ -1,0 +1,96 @@
+        body {
+            margin: 0;
+            display: flex;
+            height: 100vh;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            flex-direction: column;
+            background: #f1f8f6;
+        }
+
+        header {
+            background: linear-gradient(135deg, #2e7d32, #388e3c);
+            color: white;
+            padding: 30px;
+            text-align: center;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+            border-radius: 0 0 25px 25px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 32px;
+            letter-spacing: 1px;
+        }
+
+        header h2 {
+            margin: 8px 0 0;
+            font-size: 18px;
+            font-weight: 300;
+            color: #c8e6c9;
+        }
+
+        .main {
+            display: flex;
+            flex: 1;
+        }
+
+        .sidebar {
+            width: 180px;
+            background: #e8f5e9;
+            padding: 20px;
+            box-shadow: inset -1px 0 0 #ccc;
+            border-radius: 0 15px 15px 0;
+        }
+
+        .sidebar h3 {
+            margin-top: 0;
+            color: #1b5e20;
+            font-size: 18px;
+            border-bottom: 2px solid #2e7d32;
+            padding-bottom: 8px;
+        }
+
+        .sidebar a {
+            display: block;
+            margin: 12px 0;
+            text-decoration: none;
+            color: #2e7d32;
+            font-weight: bold;
+            padding: 8px;
+            border-radius: 6px;
+            transition: all 0.3s ease;
+        }
+
+        .sidebar a:hover {
+            background: #c8e6c9;
+            color: #1b5e20;
+            transform: translateX(5px);
+        }
+
+        .content {
+            flex:1;
+            padding: 30px;
+            background: #ffffff;
+            margin:0 20px 20px  20px;
+            border-radius: 15px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            
+        }
+
+        .section {
+            display: none;
+            animation: fadeIn 0.5s ease-in-out;
+        }
+
+        .section:target {
+            display: block;
+        }
+
+        @keyframes fadeIn {
+            from {opacity: 0;}
+            to {opacity: 1;}
+        }
+
+
+        

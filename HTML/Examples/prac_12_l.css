@@ -1,0 +1,93 @@
+body{
+    background-color: rgb(233, 245, 255);
+    display:flex;
+    flex-direction:column;
+    margin:0;
+    height:100vh
+    
+}
+header{
+    background-color: green;
+    text-align:center;
+    padding:15px;
+    margin-bottom: 20px;
+    border-radius:0 0 20px 20px;
+    box-shadow:15px 4px 10px rgb(73, 73, 73);
+}
+header h2{
+    color:rgb(224, 244, 224);
+    font-size: 19px;
+}
+header h1{
+    color:rgb(255, 255, 255);
+    font-size: 30px;
+    letter-spacing:1px;
+}
+.main{
+    display:flex;
+    flex:1;
+}
+
+.sidebar{
+    background-color: rgb(230, 245, 230);
+    color:rgb(0, 255, 0);
+    padding:15px;
+    border-radius:0 12px 12px 0;
+    box-shadow:0 2px 8px rgb(92, 91, 91);
+    width:150px;
+    font-family: 'Segoe UI', Arial, sans-serif;
+
+}
+
+.sidebar a{
+
+    text-decoration:none;
+    color:rgb(52, 120, 3);
+    transition:0.3s all ease-in;
+    padding:10px;
+    display:block;
+
+
+}
+
+.sidebar a:hover{
+    background-color: aliceblue;
+    color:rgb(107, 238, 107);
+    transform:translateX(5px);
+    border-radius: 5px;
+}
+
+.sidebar h3{
+    margin-top:0;
+    font-weight:bolder;
+    border-bottom:2px solid rgb(0, 130, 0);
+    padding-bottom:8px;
+    padding-top:8px;
+    font-weight: bolder;
+    font-size: 20px;
+
+}
+.content{
+
+    background-color: aliceblue;
+    padding:30px;
+    margin-left: 20px;
+    flex:1;
+    margin-right: 20px;
+    margin-bottom:20px;
+    border-radius: 15px;
+    box-shadow: 4px 10px 15px rgb(97, 96, 96);
+    font-family: Arial, sans-serif;
+}
+
+.section{
+    display:none;
+    animation: fadeIn 2s ease-in-out
+}
+.section:target{
+    display:block
+}
+@keyframes fadeIn{
+    from{opacity:0;}
+    from{opacity:1}
+}
