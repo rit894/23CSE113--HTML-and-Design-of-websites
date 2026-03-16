@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                display:flex;
+                background-color: antiquewhite;
+                flex-direction: column;
+                height:98dvb
+            }
+            .main{
+                display:flex;
+                flex:1
+            }
+            header{
+                text-align: center;
+                padding:20px;
+                margin-bottom:20px;
+                border-radius:4px 10px 10px black;
+                background-color: aquamarine;
+            }
+            .sidebar{
+                padding:10px;
+                background-color: burlywood;
+                transition: 0.2s all ease-in-out;
+                color:red;
+                margin-right:20px;
+                width:250px;
+
+            }
+            .sidebar a{
+                color:red;
+                text-decoration: none;
+                display:block;
+                padding:15px;
+                transition:0.2s all ease-in-out
+            }
+            .sidebar a:hover{
+                transform:translateX(5px);
+                color:red;
+                background-color: aliceblue;
+                border-radius: 5px;
+            }
+            .sidebar h3{
+                margin-top:0;
+                margin-bottom:0;
+                border-bottom:2px solid pink
+                
+            }
+            .content{
+                background-color: rgb(9, 114, 205);
+                color:black;
+                flex:1;
+                padding:25px;
+                margin-bottom:15px;
+                margin-left:20px;
+                box-shadow: 4px 10px 10px black;
+            }
+            .section{
+                display:none;
+                animation:fadeIn 2s ease-in-out
+
+            }
+            .section:target{
+                display:block
+            }
+            @keyframes fadeIn{
+                from{opacity:0};
+                to{opacity:1}
+            }
+    </style>
+    </head>
+    <body>
+        <header>
+            <h1>MY WIDHES</h1>
+            <h4>JHBKUJKVJVG</h4>
+            
+
+            
+        </header>
+       
+        <div class="main">
+             <div class="sidebar"> 
+                <h3>HHHHHHH</h3>
+             <a href="#home">HOME</a>
+                <a href="#Web">Web</a>
+
+                <a href="#details">More</a>
+                <a href="#contact">Contact</a></div>
+            <div class="content">
+            <div id="home" class="section">
+                <h1>ABOUT</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi nemo libero est sunt quos perferendis architecto odit accusamus neque officia saepe quibusdam similique eveniet necessitatibus veritatis illum, tempora adipisci nisi.</p>
+            </div>
+             <div id="Web" class="section">
+                <h1>ABOUT</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi nemo libero est sunt quos perferendis architecto odit accusamus neque officia saepe quibusdam similique eveniet necessitatibus veritatis illum, tempora adipisci nisi.</p>
+            </div> <div id="details" class="section">
+                <h1>ABOUT</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi nemo libero est sunt quos perferendis architecto odit accusamus neque officia saepe quibusdam similique eveniet necessitatibus veritatis illum, tempora adipisci nisi.</p>
+            </div> <div id="contact" class="section">
+                <h1>ABOUT</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi nemo libero est sunt quos perferendis architecto odit accusamus neque officia saepe quibusdam similique eveniet necessitatibus veritatis illum, tempora adipisci nisi.</p>
+            </div>
+            </div>
+        </div>
+    </body>
+</html>
