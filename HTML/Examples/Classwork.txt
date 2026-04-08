@@ -57,6 +57,68 @@ Create an HTML5 web page structured with appropriate sections such as header, na
  The design should demonstrate effective use of CSS background properties (color, image, or gradient), various border styles (solid, dashed, double, with border-radius), and text formatting features (font-family, font-size, font-weight, text alignment, text-transform, and letter spacing). Ensure proper use of class and id selectors, padding, and margins for layout clarity. Inline CSS and internal <style> tags are strictly not allowed.
   The final output should be neat, responsive using basic CSS
 
+																				Date : 25-03-2026
+
+
+
+
+SCRIPTS
+
+1) What are te other scripting languages avialble ? 
+2) What is the difference between CLient-side scripting and sever-side scripting ?
+3) what is the advantages of the scripting languages ?
+4) How the scripting lan are excuted?
+
+
+5) What does static and dynamic Web Page Mean ?
+
+-Java script merits 
+- js can be placed in <head> or body or external file .
+
+<script language="javaScript" type="text/javascript">
+
+
+6) Differntiate btw inner html and inner text, What is the use of inner HTML?
+
+
+																				Date : 08-04-2026
+
+javascript Dataypes:
+
+-numbers    ----> let  a = 5
+-Strings    ----> let a="String"
+-Boolean    ----> let a = 
+
+
+1)what is advantage of untyped language 
+
+2)incase of an array how an element can be acssed using address in an untyped language ?
+
+Scope of a variable :
+
+3) if local variable and global variable names are same how they can be acssed inside a function so which variable will be taking precedence ??
+4) if i want to print the golabl variable how to do that ?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
