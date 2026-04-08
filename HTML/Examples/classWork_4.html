@@ -1,13 +1,13 @@
-<!DOCTYPE html>
-<html>
-<body>
-
-
-
-<script>
-   
-    console.log("HELLO");
-</script>
-
-</body>
+<html> 
+<body onload = checkscope();> 
+<script type = "text/javascript"> 
+	    globalThis.myVar = "global "; 
+		 function  checkscope( ) {
+		 var myVar = "local";
+         document.write(globalThis.myVar); 
+			}
+            
+ </script> 
+</body> 
 </html>
+

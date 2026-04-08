@@ -99,6 +99,13 @@ Scope of a variable :
 3) if local variable and global variable names are same how they can be acssed inside a function so which variable will be taking precedence ??
 4) if i want to print the golabl variable how to do that ?
 
+document.write("<table>")
+document.write("<th><th>
+		<td><td>
+		<tr><tr>")
+
+5) create a webpage which takes 2 input integers using a textbox and having four buttons to perfom the basic arthemetic functions(+,-,*,/)
+
 
 
 
